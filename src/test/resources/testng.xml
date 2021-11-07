@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="1">
+	<test name="RegisterTest">
+		<classes>
+			<class name="com.a_practice.ui_tests.RegisterWithValidDataTest" />
+		</classes>
+	</test>
+	
+	<test name="CartTest">
+		<classes>
+			<class name="com.a_practice.ui_tests.AddSingleItemToCartTest" />
+			<class name="com.a_practice.ui_tests.DeleteSingleItemFromCartTest" />
+		</classes>
+	</test>
+
+	<test name="SearchProductTest">
+		<classes>
+			<class name="com.a_practice.ui_tests.SearchForProductTest" />
+		</classes>
+	</test>
+	
+</suite>
