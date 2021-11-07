@@ -8,7 +8,7 @@ import com.a_practice.utils.WebDriverFactory;
 public class BaseTest {
 
 	@BeforeSuite
-    public void setUp() {  //komentar
+    public void setUp() {  //komentari
         WebDriverFactory.setChromeDriver();
     }
     @AfterSuite
